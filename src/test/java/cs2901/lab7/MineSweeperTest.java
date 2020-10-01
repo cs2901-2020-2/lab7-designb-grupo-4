@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import static cs2901.lab7.FileReader.*;
+
 @Test
 public class MineSweeperTest {
 
@@ -54,7 +56,7 @@ public class MineSweeperTest {
         }
     }
 
-    private ArrayList<ArrayList<Integer>> readInputPositions(int testNumber){
+/*    private ArrayList<ArrayList<Integer>> readInputPositions(int testNumber){
         List<String> lines = readFile(testNumber, "input");
         int n = Integer.parseInt(lines.get(0));
         ArrayList<ArrayList<Integer>> out = new ArrayList<ArrayList<Integer>>();
@@ -99,5 +101,5 @@ public class MineSweeperTest {
             lines.add(line);
         }
         return lines;
-    }
+    }*/
 }

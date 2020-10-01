@@ -3,9 +3,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,java
 
-target
+#target
 .idea
-minesweeper.iml
+#minesweeper.iml
 
 ### Java ###
 # Compiled class file
