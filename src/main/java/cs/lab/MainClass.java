@@ -1,12 +1,8 @@
-package cs2901.lab7;
+package cs.lab;
 
 import java.util.Scanner;
 
 public class MainClass {
-    public MainClass() {
-    }
-
-
     public static void main(String[] args){
         MineSweeper.logger.info("CS-UTEC Software Engineering I");
         Scanner input = new Scanner(System.in);

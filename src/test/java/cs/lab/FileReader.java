@@ -1,4 +1,4 @@
-package cs2901.lab7;
+package cs.lab;
 
 import java.util.Scanner;
 import java.io.InputStream;
