@@ -25,6 +25,7 @@ public class MineSweeperTest {
          genericMatrix(3);
      }
      public void testCase4() throws IOException {
+         
          List<ArrayList<Integer>> board = new ArrayList<>();
          MineSweeper ms = new MineSweeper(board);
          Assert.assertEquals(board, ms.getBoard());

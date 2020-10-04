@@ -3,6 +3,8 @@ import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
+import java.util.Scanner;
+
 
 public class MineSweeper {
 
@@ -83,4 +85,26 @@ public class MineSweeper {
     public boolean getGameOver() {
         return gameOver;
     }
+
+
+    
+     public static void main(String []args){
+            logger.info("CS-UTEC Software Engineering I");
+            Scanner input = new Scanner(System.in);
+            Integer boardSize = input.nextInt();
+            MineSweeper game = new MineSweeper(boardSize);
+            game.printBoard();
+            int x;
+            int y;
+            while(!game.gameOver){
+                logger.info("Ingrese la coordenada x: "); x = input.nextInt();
+                logger.info("Ingrese la coordenada y: "); y = input.nextInt();
+                game.play(x, y);
+                game.printBoard();
+            }
+            logger.info("PERDISTE!!!");
+            game.printBoard();
+            input.close();
+        }
+
 }
